@@ -51,13 +51,14 @@ input,button{
 }
 
 .loading_gif{
-  width: 115px; 
-  height: 100px; 
+  width: 200px; 
+  height: 150px; 
   background-image: url(https://i.pinimg.com/originals/e8/9b/f6/e89bf6cf6cad8ca28985a98e0a59f5df.gif);
   background-size: cover;
   background-position: center;
   transition: all .30s ease-out;
   color: black;
   padding-left: 5px;
-
+font-size: 35px;
+text-align: center;
 }
