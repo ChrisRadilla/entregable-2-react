@@ -1,0 +1,63 @@
+
+*,*::before,*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: black;
+  color: aqua;
+
+}
+
+.img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+button{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: transform .5s;
+
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+input,button{
+  display: inline-block;
+  font-family: inherit;
+}
+
+/*----------APP-------------*/
+
+.app {
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3VoZXV1dTRoYjVpZnZyNnhhNGYyMHNuNGcxeGpqd2xka2szdXBtdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UI1LUP61p3YYM/giphy.gif);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading_gif{
+  width: 115px; 
+  height: 100px; 
+  background-image: url(https://i.pinimg.com/originals/e8/9b/f6/e89bf6cf6cad8ca28985a98e0a59f5df.gif);
+  background-size: cover;
+  background-position: center;
+  transition: all .30s ease-out;
+  color: black;
+  padding-left: 5px;
+
+}
