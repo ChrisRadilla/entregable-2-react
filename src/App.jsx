@@ -18,6 +18,11 @@ function App() {
   }
 
   useEffect(() => {
+    document.title = "TheWeatherApp-CR"; 
+  }, []);
+  
+
+  useEffect(() => {
     navigator.geolocation.getCurrentPosition(success)
   }, [])
 
